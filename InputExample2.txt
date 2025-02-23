@@ -1,0 +1,13 @@
+##############load input*************
+# load snapshot?
+1
+# snapshot data file
+snap.dat
+# number of iterations to continue to run
+30000
+# file name for virtual surface data
+magball_U5
+# save snapshot?
+1
+# snapshot file to write into
+magball_snap

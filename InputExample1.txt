@@ -1,0 +1,32 @@
+###############fresh run input###########
+# load snapshot?
+0
+# numbers of processes in x, y, z directions, respectively
+1 2 1
+# time step, grid sizes in unit of radiance (scaled with respect to omega, lambdabar)
+# 2000 time steps per cycle, 20 grids per wavelength:
+# dtau=pi/1000, dx=dy=dz=2pi/20
+0.003141592653589793238462643383279502884197 0.3141592653589793238462643383279502884197 0.3141592653589793238462643383279502884197 0.3141592653589793238462643383279502884197
+# length of 1-D fft in x, y, z directions, respectively
+512 320 512
+# thickness of absorption boundary, scattering field zone, ksi transition zone, domain overlapping
+# abs=30
+40 41 12 15
+# incident angle in unit of radiance
+1.570796326794896619231321691639751442099 1.570796326794896619231321691639751442099
+# Energy in unit of micro-electron-volts
+0.327216805
+# Spin polarization: up spin (real, imaginary), down spin (real, imaginary)
+1.0 0.0 0.0 0.0
+# absorbing boundary ComplexPotential_U0
+5.0
+# absorbing boundary ComplexPotential_alpha
+0.1
+# number of iterations
+40000
+# file name for virtual surface data
+magball_U5
+# save snapshot?
+1
+# snapshot file to write into
+magball_snap
