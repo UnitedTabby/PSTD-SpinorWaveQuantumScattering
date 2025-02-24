@@ -283,7 +283,7 @@ void CPSTD_MagScat::DomainDecomposition()
 
    m_nyz=m_ny*m_nz;
 
-   // allocate the memory for the potential
+   // allocate memory for the potential
    if (m_x1Core>=m_X2aKsi || m_x2Core<=m_X1bKsi || m_y1Core>=m_Y2aKsi 
 	 || m_y2Core<=m_Y1bKsi || m_z1Core>=m_Z2aKsi || m_z2Core<=m_Z1bKsi)
       m_flgV=false;
